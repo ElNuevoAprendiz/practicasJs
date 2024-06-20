@@ -6,5 +6,7 @@ function sumar(){
 
     resultado=parseInt(a)+parseInt(b)
 
-    document.getElementById("result").innerHTML(resultado)
+    alert(resultado)
+
+    document.getElementById("result").innerHTML=resultado
 }
