@@ -4,3 +4,10 @@
 
 1.19.00 Se comienza con el tema de Javascript
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
+                                                23/4
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+1.00.00  Se hace un ejemplo de fortaleza de una clave contando la cantidad de caracteres que se ingresa
+se usa el evento onkeyup para q se vaya apretando una tecla y se modifique el span que indica la 
+fortaleza 
