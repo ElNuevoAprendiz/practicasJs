@@ -10,7 +10,7 @@ function calcularFortaleza(){
 
     if (cantCaracteres>=0 & cantCaracteres<=4) {
         fort="Baja";
-        alert("Baja");
+        
     } else if (cantCaracteres>=5 & cantCaracteres<=8) {
         fort="Media";
     } else {
