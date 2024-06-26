@@ -11,3 +11,28 @@
 1.00.00  Se hace un ejemplo de fortaleza de una clave contando la cantidad de caracteres que se ingresa
 se usa el evento onkeyup para q se vaya apretando una tecla y se modifique el span que indica la 
 fortaleza 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+                                                2/5
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+1.08.43 Se explica como hacer el debur en vs
+
+1) Se selecciona el archivo js.
+2)Se presiona en la barra derecha el boton de debug
+3)De las opciones que aparece se elige run & debug
+4)Se elige el nevegador a usar, esto crea un archivo json de configuración.
+5)Como este archivo de configuración está apuntando al localhost en la url, se elegi la pestaña donde esta 
+  el html, por ejemplo el index, se lo levanta, en nuestro caso usamos live server, una vez que se abre la 
+  página html en nuestro navegador copianos la url desde la barra, que segura sera la del puerto que usa el 
+  live server, por ej. http://127.0.0.1:5500/fortaleza.html, y esta direccion la copiamos en la opción url 
+  del archivo json de configuración del debug.
+6)Una vez hecho esto, si apretáramos el boton launch chrome en la barra de depuración de arriba, que aparecio 
+  cuando nosotros habiamos apretado el boton de depuración no va a pasar nada, tenemos que agregar un 
+  breackpoint, lo que se hace al colocar el cursor a la izquierda del numero de linea que queremos que se 
+  detenga en la parte del código y hacer click, debe aparecer un punto rojo.
+7)Una vez hecho esto lo debemos reiniciar o restartear (restart) presionan el boton restart en la pequena barra 
+  flotante quue aparecion con los botones de debug, el boton de restart es como una flecha circular. Esto 
+  reinicia el navegador y ejecuta todo hasta el breackpoint que pusimos.
+8)Una vez para la ejecución volvemos a presionar re y luego algunos de los botones de la barra flotante de 
+  depuración como por ejemplo avanzar un paso, etc.
